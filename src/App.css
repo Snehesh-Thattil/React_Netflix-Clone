@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('https://wallpapercave.com/wp/wp6581266.jpg');
+    background-size: 100% 32.5rem;
+    background-repeat: no-repeat;
+    background-color: #111;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
