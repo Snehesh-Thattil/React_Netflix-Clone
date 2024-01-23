@@ -1,21 +1,57 @@
+* {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+
+}
+
 .container {
     margin-left: 1rem;
     color: #fff;
 }
 
-.Allrows {
-    display: flex;
-    padding-bottom: 20px;
+.Posters {
     padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    text-align: center;
+    font-size: large;
     overflow-x: scroll;
     overflow-y: hidden;
 }
 
-.Allrows::-webkit-scrollbar {
+.Posters::-webkit-scrollbar {
     display: none;
 }
 
-.row {
-    max-height: 20em;
+.mainHeader {
+    text-align: center;
+    padding-left: 1.5rem;
+    font-size: 2rem;
+}
+
+.miniHeader {
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.mainPosters {
+    cursor: pointer;
+    max-height: 15em;
     margin-right: 1em;
+    transition: .25s ease-in-out;
+}
+
+.miniPosters {
+    cursor: pointer;
+    max-height: 10em;
+    margin-right: 1em;
+    transition: .25s ease-in-out;
+}
+
+.mainPosters:hover {
+    transform: scale(1.05);
+}
+
+.miniPosters:hover {
+    transform: scale(1.075);
 }
